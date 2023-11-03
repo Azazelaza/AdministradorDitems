@@ -1,0 +1,21 @@
+.dashboardTemplate {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    .sidebar {
+        width: 10%;
+        background-color: #12549f;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .container {
+        overflow: auto;
+        padding-bottom: 10rem;
+        height: -webkit-fill-available;
+    }
+}
