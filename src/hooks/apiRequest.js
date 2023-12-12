@@ -1,5 +1,5 @@
-//const REQUEST_API_URL = "https://api.hardcuino.com/api";
-const REQUEST_API_URL = "http://localhost:8000/api";
+const REQUEST_API_URL = "https://api.hardcuino.com/api";
+//const REQUEST_API_URL = "http://localhost:8000/api";
 export const Call = async (
     endpoint,
     method = "GET",

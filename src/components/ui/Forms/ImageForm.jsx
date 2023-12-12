@@ -7,6 +7,9 @@ export const ImageForm = ({ setValue, name, text, data = [], errors }) => {
   const [images, setImages] = useState(null);
 
   const handleAddDocuments = async (event) => {
+    if(!event.target.files[0]){
+      return
+    }
     const file = await dispatch(startUploadImage(event.target.files[0], name));
     setValue(name, file);
     setImages(file);

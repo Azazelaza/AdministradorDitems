@@ -28,7 +28,7 @@ export const Crud = ({ camps, data, area, children }) => {
           </tr>
         </thead>
         <tbody>
-          {data.length ? (
+          {data?.length ? (
             <>{children}</>
           ) : (
             <tr>
